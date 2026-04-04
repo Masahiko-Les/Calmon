@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Calmon",
-    "slug": "Calmon",
+    "slug": "calmon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,10 +10,11 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFF0F5"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.calmon"
     },
     "android": {
       "adaptiveIcon": {
