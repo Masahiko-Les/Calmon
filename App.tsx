@@ -51,6 +51,7 @@ export default function App() {
       <StatusBar barStyle="dark-content" backgroundColor={COLORS.background} />
 
       <ScrollView
+        style={{ backgroundColor: COLORS.background }}
         contentContainerStyle={styles.scroll}
         showsVerticalScrollIndicator={false}
       >
@@ -184,6 +185,7 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     minHeight: 240,
     justifyContent: 'flex-start',
+    backgroundColor: COLORS.background, // 透過 PNG の透明部分をアプリ背景色で統一
   },
 
   // ---- カード ----
